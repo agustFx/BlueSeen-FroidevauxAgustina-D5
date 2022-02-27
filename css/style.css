@@ -1,3 +1,212 @@
-footer{
-	background-color: grey;
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+	font-family: 'Varela Round';
 }
+
+.navbar-collapse{
+	justify-content: flex-end;
+}
+
+li{
+    list-style-type: none;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link  {
+    color: steelblue;
+}
+
+header, footer{
+ 	background-color: silver;
+} 
+
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3rem;
+}
+
+.index-body{
+	background-image: url(../assets/img/bg-5.JPEG);
+    background-attachment: fixed; 
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.index-img{
+	width: 370px;
+}
+
+.img-index{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.index-encabezado{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	color: whitesmoke;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.index-encabezado h1{
+   font-size: 30px;
+   word-spacing: 2rem;
+   letter-spacing: 5px;
+}
+
+.index-encabezado h2{
+	font-size: 25px;
+	padding-bottom: 1rem;
+	word-spacing: 5px;
+}
+
+.index-buttons{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 2rem;
+}
+
+.index-card{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 2rem;
+}
+
+.us-body{
+	background-image: url(../assets/img/bg-4.JPEG);
+    background-attachment: fixed; 
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+.main-us-position{
+	align-items: center;
+	flex-direction: row-reverse;
+    padding-top: 3rem;
+	padding-right: 2rem;
+	padding-bottom: 3rem;
+	padding-left: 1rem;
+}
+
+.mainUscontent-item{
+	font-size: 70px;
+	color: lightslategrey;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+span{
+	color: lightsteelblue;
+}
+
+.mainUscontent-itemtwo{
+	font-size: 25px;
+	color: whitesmoke;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.review-body{
+	background-image: url(../assets/img/bg-7.JPEG);
+    background-attachment: fixed; 
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.review-encabezado{
+	display: flex;
+	justify-content: center;
+	color: white;
+	padding: 2rem;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.review-img{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+    padding-bottom: 2rem;
+}
+
+label{
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+    padding: 0.5rem;
+    font-size: 20px;
+}
+
+.review-bottons{
+    display: flex;
+    flex-direction: row-reverse;
+	padding: 0.5rem;
+}
+
+.helpcenter-body{
+	background-image: url(../assets/img/bg-11.JPEG);
+    background-attachment: fixed; 
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.helpcenter-encabezado-one{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    line-height: 54px;
+    padding-bottom: 2rem;
+}
+
+.helpcenter-encabezadoA{
+    color: lightslategrey;
+    font-size: 35px;
+}
+
+.helpcenter-encabezadoB{
+   color: cadetblue;
+   font-size: 35px;
+}
+
+.helpcenter-encabezadoC{
+	color: lightsteelblue;
+	font-size: 35px;
+}
+
+.helpcenter-encabezado-two{
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	padding-top: 2rem;
+}
+
+.socialmedia-body{
+	background-image: url(../assets/img/bg-12.JPEG);
+    background-attachment: fixed; 
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.socialmedia-imgs{
+	padding: 10rem;
+}
+
+.col-12, .socialmedia-img{
+	padding-bottom:1rem;
+	padding-top:1rem;
+}
+
